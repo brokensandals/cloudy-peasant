@@ -1,7 +1,4 @@
-# misc-clj
-
-Stuff that seemed worth the effort to write, but not (yet) to put into a proper library. Generally
-intended to help in a REPL.
+Dumping ground for miscellaneous Clojure code. Nothing to see here, move along.
 
 ## License
 
