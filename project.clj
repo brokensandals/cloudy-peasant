@@ -10,5 +10,6 @@
                  [org.clojure/data.json "0.2.3"]
                  [org.clojure/tools.namespace "0.2.4"]
                  [ring/ring-core "1.2.0"]
+                 [ring/ring-devel "1.2.0"]
                  [ring/ring-jetty-adapter "1.2.0"]
                  [watchtower "0.1.1"]])
