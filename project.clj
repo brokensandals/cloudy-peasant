@@ -12,4 +12,5 @@
                  [ring/ring-core "1.2.0"]
                  [ring/ring-devel "1.2.0"]
                  [ring/ring-jetty-adapter "1.2.0"]
-                 [watchtower "0.1.1"]])
+                 [watchtower "0.1.1"]]
+  :repl-options {:init (eval '(do (use 'misc.autoload) (auto-use (find-ns 'user) "src")))})

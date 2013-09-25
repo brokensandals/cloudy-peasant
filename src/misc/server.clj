@@ -7,8 +7,8 @@
 (def server-port 8100)
 (def server-host "localhost")
 
-(defn mount-handler!
-  ([handler] (mount-handler! (str (System/currentTimeMillis)) handler))
+(defn mount!
+  ([handler] (mount! (str (System/currentTimeMillis)) handler))
   ([context-root handler]
     (swap! handlers assoc context-root
       (wrap-base-url handler (str "/" context-root)))
